@@ -63,8 +63,8 @@ MPG API
     from pay2go import Pay2GoPartnerAPI
 
     post_data = {
-        'Version': '1.2',
         'TimeStamp': time.time(),
+        'Version': '1.2',
         'MemberUnified': 'SOME VALUE',
         'MemberName': 'SOME VALUE',
         'MemberPhone': 'SOME VALUE',
