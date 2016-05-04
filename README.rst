@@ -29,11 +29,11 @@ MPG API
     )
 
     data = {
-        'MerchantID': 'SOME VALUE',
         'RespondType': 'JSON',
         'TimeStamp': time.time(),
         'Version': '1.2',
         'LangType': 'zh-tw',
+        'MerchantID': 'SOME VALUE',
         'MerchantOrderNo': 'SOME VALUE',
         'Amt': 'SOME VALUE',
         'ItemDesc': 'SOME VALUE',
