@@ -13,8 +13,8 @@ Installation
 Usage
 =====
 
-MPG
-===
+MPG API
+=======
 
 .. code-block:: py
 
@@ -24,7 +24,7 @@ MPG
 
     mpg_api = Pay2GoMPGAPI(
         hash_key='YOUR_PAY2GO_HASH_KEY',
-        hash_iv='YOUR_PAY2GO_HASH_KEY',
+        hash_iv='YOUR_PAY2GO_HASH_IV',
         environment='sandbox',  # or 'production'
     )
 
@@ -55,8 +55,8 @@ MPG
         <button type="submit">Submit</button>
     </form>
 
-金流合作推廣商
-===========
+金流合作推廣商 API
+==============
 
 .. code-block:: py
 
@@ -95,7 +95,7 @@ MPG
 
     partner_api = Pay2GoPartnerAPI(
         hash_key='YOUR_PAY2GO_HASH_KEY',
-        hash_iv='YOUR_PAY2GO_HASH_KEY',
+        hash_iv='YOUR_PAY2GO_HASH_IV',
         environment='sandbox',  # or 'production'
     )
 
