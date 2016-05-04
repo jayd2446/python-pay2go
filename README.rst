@@ -29,8 +29,8 @@ MPG API
     )
 
     data = {
-        'RespondType': 'JSON',
         'TimeStamp': time.time(),
+        'RespondType': 'JSON',
         'Version': '1.2',
         'LangType': 'zh-tw',
         'MerchantID': 'SOME VALUE',
@@ -107,3 +107,9 @@ MPG API
         print(result['MerchantIvKey'])
     else:
         print('ERROR')
+
+References
+==========
+
+- `智付寶 Pay2go - API 文件專區 <https://www.pay2go.com/info/site_description/api_description>`_
+- `強化串連智付寶交易的安全性 <http://www.jollen.org/blog/2016/03/security-pay2go.html>`_
